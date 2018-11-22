@@ -1,0 +1,69 @@
+#page{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background: url(images/bg.png) no-repeat;
+	background-size: 100%;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+}
+
+#header{
+	height: 166px;
+	padding-top: 70px;
+	margin-left: 70px;
+}
+
+#header img{
+	float: left;
+	width: 300px;
+}
+
+#header p{
+	float: right;
+	font-size: 12px;
+	margin-right: 100px;
+	margin-top: 95px;
+}
+
+#content{
+	clear: both;
+}
+
+#first_row, #second_row{
+	width: 900px;
+	margin: 3px 65px;
+	height: 205px;
+
+}
+
+#country_1, #country_2{
+	padding: 0 10px;
+	width: 270px; 
+	height: 175px;
+	float: left;
+}
+
+#country_1 img, #country_2 img{
+	border: 3px ridge silver;
+	border-radius: 3px;
+	width: 100%;
+}
+
+#country_1 p, #country_2 p{
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	font-size: 13px;
+}
+
+#second_row{
+	margin-top: 40px;
+}
+
+
+#footer{
+	padding-top: 165px;
+	text-align: center;
+	font-size: 12px;
+}
